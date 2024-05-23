@@ -29,7 +29,7 @@ class Login:
 
 
     def Search(self,search):
-        self.driver.find_element(By.XPATH,self.search_input).click().send_keys(search)
+        self.driver.find_element(By.XPATH,self.search_input).send_keys(search)
 
 
 
