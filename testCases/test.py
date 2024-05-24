@@ -19,7 +19,7 @@ class Test_Linkedin:
         test_page.SignIn()
 
         test_page.GiveInput(email,password)
-        test_page.Search(search)
+        test_page.Message(name)
 
 
 
